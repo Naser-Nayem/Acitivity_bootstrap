@@ -1,0 +1,341 @@
+/*common selector start*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Poppins:wght@400;500;600&family=Roboto&family=Roboto+Serif:wght@300&display=swap');
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif !important;
+}
+/*common selector end*/
+a{
+    text-decoration: none;
+    transition: .5s;
+    color: black;
+}
+.light-green{
+    color: #30C39E;
+}
+.bg-lg{
+    background: #0A8EA0;
+}
+.bg-green{
+    background-color: #30C39E;
+}
+/*header start*/
+.bg-image{
+    background: radial-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/banner.jpg),no-repeat;
+    background-size: cover;
+    
+}
+/*header end*/
+/*nav start*/
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+   color: #30C39E;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-size: 16px;
+    transition: .5s;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #30C39E;
+}
+/*nav end*/
+
+/*header body start*/
+.header-body h1{
+    font-size: 65px;
+    color: #30C39E;
+    line-height: 78px;
+    font-weight: 600;
+}
+.header-body h4{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.header-body p{
+    padding-top: 20px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 36px;
+}
+.btn a{
+    font-size: 16px;
+    font-family: poppins,sans-serif;
+    color: white;
+    padding: 12px 35px;
+    border-radius: 5px;
+    border: 3px solid white;
+    transition: .5s;
+
+}
+.btn a:hover{
+    background-color: #30C39E;
+    padding: 15px 35px;
+    border: none;
+}
+/*header body end*/
+
+/*about me start*/
+
+/*about heading start*/
+.about-heading h2{
+    font-size: 40px;
+    letter-spacing: 5px;
+    color: #333333;  
+}
+.about-heading hr{
+    width: 9%;
+    border: 2px solid #333333 !important;
+    opacity: 1 !important;
+    margin: 0px auto;
+}
+/*about heading end*/
+
+/*about content start*/
+.about-content .content-1 h3{
+    font-size: 20px;
+    line-height: 35px;
+}
+.about-content .content-1 p{
+   text-align: justify;
+   font-size: 16px;
+   line-height: 30px;
+   color: #666666;
+}
+.about-content .content-1 a{
+    font-size: 16px;
+    font-family: roboto,sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.about-content .content-1 a:hover{
+    background-color: white;
+    color: black !important;
+    border: 2px solid black;
+}
+
+.about-content .content-2 img{
+    width: 100%;
+}
+.about-content .content-3 h5{
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+}
+.about-content .content-3 span{
+    float: right;
+}
+.about-content .content-3 p{
+    color: #333333;
+    font-size: 16px;
+    line-height: 26px;
+}
+/*about content end*/
+
+/*about me end*/
+
+/*services start*/
+
+/*services heading start*/
+.services-heading h2{
+    font-size: 40px;
+    letter-spacing: 5px;
+    color: white;  
+}
+.services-heading hr{
+    width: 11%;
+    border: 2px solid white !important;
+    opacity: 1 !important;
+    margin: 0px auto;
+}
+/*services heading end*/
+
+/*services content start*/
+
+/*services content end*/
+.icon{
+    font-size: 30px;
+    color: white;
+}
+span.ui{
+    font-size: 22px;
+    color: white;
+    font-family: 'Roboto',sans-serif;
+}
+.sc-1 .paragraph {
+    color: white;
+    font-size: 16px;
+    line-height: 29px;
+}
+/*services end*/
+
+/*experince start*/
+.ex-card img{
+    width: 100%;
+}
+.card-para{
+    font-size: 16px;
+    line-height: 28px;
+}
+/*experince end*/
+
+/*why us start*/
+.why-us h2{
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 600;
+}
+.why-us p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #ddd;
+    padding: 0px 200px;
+}
+.why-us .button{
+    color: #0A8EA0;
+    background: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 35px;
+    border-radius: 5px;
+}
+.why-us .button:hover{
+    color: white;
+    background: black;
+}
+.why-us .button2{
+    color: white;
+    background: black;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 35px;
+    border-radius: 5px;
+}
+.why-us .button2:hover{
+    color: black;
+    background: white;
+}
+/*why us end*/
+
+/*contact form start*/
+.contact-form h4{
+    font-size: 22px;
+    line-height: 30px;
+    color: #333;
+}
+.location i{
+    color: #30C39E;
+    font-size: 16px;
+}
+.location .street{
+    color: #666;
+    font-size: 16px;
+    line-height: 24px;
+}
+.location p{
+    color: #666;
+    font-size: 16px;
+    line-height: 24px;
+}
+.phone i{
+    color: #30C39E;
+    font-size: 16px;
+}
+.phone .num{
+    color: #666;
+    font-size: 16px;
+    line-height: 24px;
+}
+.mail i{
+    color: #30C39E;
+    font-size: 16px;
+}
+.mail .gmail{
+    color: #666;
+    font-size: 16px;
+    line-height: 24px;
+}
+button.submit{
+    transition: .5s;
+}
+button.submit:hover{
+    background-color: black;
+    border: 2px solid turquoise;
+}
+.form-control{
+    transition: none;
+}
+.form-control:hover{
+    outline: none;
+    outline-offset: none;
+}
+/*contact form end*/
+
+/*footer start*/
+.design-f{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #404040;
+    padding: 10px;
+    font-size: 13px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+.design-l{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #404040;
+    padding: 10px;
+    font-size: 13px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+.design-p{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #404040;
+    padding: 10px;
+    font-size: 13px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+.design-t{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #404040;
+    padding: 10px;
+    font-size: 13px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+.design-g{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #404040;
+    padding: 10px;
+    font-size: 13px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+.design i{
+    color: #999;
+    transition: .5s;
+}
+.design i:hover{
+    color: #0A8EA0;
+}
+.copyright a.change{
+    color: #0A8EA0;
+}
+
+.copyright a.change:hover{
+    color: #30C39E;
+}
+/*footer end*/
+
+

@@ -1,0 +1,58 @@
+@media (min-width: 0px) and (max-width: 991px){
+    
+    /*header start*/
+    .navbar-light .navbar-toggler {
+        /* color: rgba(0,0,0,.55); */
+        /* border-color: rgba(0,0,0,.1); */
+        border-color: lightgreen;
+        color: blue;
+        background: darkcyan;
+        border: 2px solid #ddd;
+    }
+    button:focus:not(:focus-visible) {
+        /* outline: 0; */
+    }
+    .navbar-collapse {
+        text-align: end;
+    }
+    li.nav-item.p-1 {
+        border-bottom: 1px solid #d2d2d2;
+        width: 140px;
+        margin-left: auto;
+        background: black;
+        text-align: center;
+    }
+    .bg-image{
+        background-position: center;
+    }
+    .header-body h1 {
+        font-size: 42px;
+        line-height: 60px;
+    }
+    .header-body h4 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .header-body p {
+        padding-top: 16px;
+        text-align: left;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .btn a {
+        padding: 10px;
+    }
+    /*header end*/
+
+    /*experience card start*/
+    .experience span{
+        visibility: hidden;
+    }
+    /*experience card end*/
+
+    /*why us start*/
+    .why-us p {
+        padding: 0px;
+    }
+    /*why us end*/
+}
